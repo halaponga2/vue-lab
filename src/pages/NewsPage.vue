@@ -26,7 +26,7 @@ export default {
         async getNews(){
             
             try{
-                const response = await axios.get("http://demo-api.vsdev.space/api/articles")
+                const response = await axios.get("https://demo-api.vsdev.space/api/articles")
                 this.news = response.data
             }
             catch(error){
